@@ -1,8 +1,10 @@
 package arrayBase;
 
+import java.util.Arrays;
+
 public class Ex1 {
     /**
-     * main function of exercise 2
+     * main function of exercise 1
      * @param args
      */
     public static void main(String[] args) {
@@ -10,5 +12,7 @@ public class Ex1 {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+        Arrays.toString(array);
+        //this is a regular comment
     }
 }
