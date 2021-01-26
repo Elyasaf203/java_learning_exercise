@@ -13,5 +13,6 @@ public class Ex1 {
             System.out.println(array[i]);
         }
         Arrays.toString(array);
+        //this is a regular comment
     }
 }
